@@ -1,0 +1,43 @@
+/* Styling for the page and the tree container */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#treeContainer {
+    width: 1500px; /* Increased width */
+    height: 1000px; /* Increased height */
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    position: relative;
+    overflow: auto; /* Allows scrolling if the tree is too large */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#wordResult, #autoSuggestResult {
+    margin-top: 10px;
+    font-size: 16px;
+}
